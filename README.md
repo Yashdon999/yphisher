@@ -1,7 +1,7 @@
 <!-- Yphisher -->
 
 <p align="center">
-  <img src=".github/misc/logo.png" height="250" width="600">
+  <img src=".github/misc/logo.png" height="210" width="600">
 </p>
 
 <p align="center">

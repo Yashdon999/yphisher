@@ -24,7 +24,7 @@
 
 <h3><p align="center">Disclaimer</p></h3>
 
-<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+<i>Any actions and or activities related to <b>Yphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
 <b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
 
@@ -54,37 +54,37 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   git clone --depth=1 https://github.com/Yashdon999/yphisher.git
   ```
 
-- Now go to cloned directory and run `zphisher.sh` -
+- Now go to cloned directory and run `yphisher.sh` -
   ```
-  $ cd zphisher
-  $ bash zphisher.sh
+  $ cd yphisher
+  $ bash yphisher.sh
   ```
 
-- On first launch, It'll install the dependencies and that's it. ***Zphisher*** is installed.
+- On first launch, It'll install the dependencies and that's it. ***Yphisher*** is installed.
 
 ##
 
 ### Installation (Termux)
-You can easily install zphisher in Termux by using tur-repo
+You can easily install yphisher in Termux by using tur-repo
 ```
 $ pkg install tur-repo
-$ pkg install zphisher
-$ zphisher
+$ pkg install yphisher
+$ yphisher
 ```
 ### A Note : 
-***Termux discourages hacking*** .. So never discuss anything related to *zphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
+***Termux discourages hacking*** .. So never discuss anything related to *yphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
 
 ##
 
 <p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/htr-tech/zphisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/htr-tech/yphisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
 ##
 
 ### Installation via ".deb" file
 
-- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/zphisher/releases/latest)
+- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/yphisher/releases/latest)
 - If you are using ***termux*** then download the `*_termux.deb`
 
 - Install the `.deb` file by executing
@@ -104,23 +104,23 @@ $ zphisher
 - Docker Image Mirror:
   - **DockerHub** : 
     ```
-    docker pull htrtech/zphisher
+    docker pull htrtech/yphisher
     ```
   - **GHCR** : 
     ```
-    docker pull ghcr.io/htr-tech/zphisher:latest
+    docker pull ghcr.io/htr-tech/yphisher:latest
     ```
 
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
+- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/yphisher/master/run-docker.sh)
 
   ```
-  $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
+  $ curl -LO https://raw.githubusercontent.com/htr-tech/yphisher/master/run-docker.sh
   $ bash run-docker.sh
   ```
 - Temporary Container
 
   ```
-  docker run --rm -ti htrtech/zphisher
+  docker run --rm -ti htrtech/yphisher
   ```
   - Remember to mount the `auth` directory.
 
@@ -129,12 +129,12 @@ $ zphisher
 <details>
   <summary><h3>Dependencies</h3></summary>
 
-<b>Zphisher</b> requires following programs to run properly - 
+<b>Yphisher</b> requires following programs to run properly - 
 - `git`
 - `curl`
 - `php`
 
-> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
+> All the dependencies will be installed automatically when you run **Yphisher** for the first time.
 </details>
 
 <details>

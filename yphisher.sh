@@ -160,7 +160,7 @@ kill_pid() {
 		fi
 	done
 }
-
+ 
 # Check for a newer release
 check_update(){
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "

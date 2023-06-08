@@ -212,6 +212,7 @@ banner() {
 		${ORANGE}     |_|                                
 		${ORANGE}                                     
 		${ORANGE}                      ${RED}Version : ${__version__}
+		${ORANGE}                      ${RED}By : ${yashdon999}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Yphisher (tahmid.rayat)${WHITE}
 	EOF
@@ -224,6 +225,7 @@ banner_small() {
 		${BLUE}  ░█░░░█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀█
 		${BLUE}  ░▀▀█▀▀░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
 		${BLUE}  ░░░█░░░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+		${ORANGE}                      ${RED}By : ${Yashdon999}
 	EOF
 }
 

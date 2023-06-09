@@ -24,6 +24,11 @@
 
 <h3><p align="center">Disclaimer</p></h3>
 
+***Ultimate phishing tool in python. Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.***
+
+This project is now a part of [Yphisher](https://github.com/Yashdon999/yphisher). Further bug fixes and feature addition will be available in that
+
+
 <i>Any actions and or activities related to <b>Yphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
 <b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
@@ -174,8 +179,8 @@ Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zp
 , and the Sites Updated by [Yash](https://github.com/Yashdon999/yphisher)
 
 ### Find Me on:
-<p align="left">
-  <a href="https://yashdon999.github.io/Portfolio/" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
-  <a href="https://github.com/Yashdon999" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
-</p>
+
+
+- [![Github](https://img.shields.io/badge/Github-Yashdon999-green?style=for-the-badge&logo=github)](https://github.com/Yashdon999)
+- [![Telegram](https://img.shields.io/badge/Telegram-error_short-indigo?style=for-the-badge&logo=telegram)](https://t.me/error_short)
 

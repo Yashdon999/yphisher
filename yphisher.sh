@@ -741,18 +741,18 @@ main_menu() {
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${GREEN} Facebook      ${RED}[${WHITE}11${RED}]${GREEN} Twitch       ${RED}[${WHITE}21${RED}]${GREEN} DeviantArt
-		${RED}[${WHITE}02${RED}]${GREEN} Instagram     ${RED}[${WHITE}12${RED}]${GREEN} Pinterest    ${RED}[${WHITE}22${RED}]${GREEN} Badoo
-		${RED}[${WHITE}03${RED}]${GREEN} Google        ${RED}[${WHITE}13${RED}]${GREEN} Snapchat     ${RED}[${WHITE}23${RED}]${GREEN} Origin
-		${RED}[${WHITE}04${RED}]${GREEN} Microsoft     ${RED}[${WHITE}14${RED}]${GREEN} Linkedin     ${RED}[${WHITE}24${RED}]${GREEN} DropBox	
-		${RED}[${WHITE}05${RED}]${GREEN} Netflix       ${RED}[${WHITE}15${RED}]${GREEN} Ebay         ${RED}[${WHITE}25${RED}]${GREEN} Yahoo		
-		${RED}[${WHITE}06${RED}]${GREEN} Paypal        ${RED}[${WHITE}16${RED}]${GREEN} Quora        ${RED}[${WHITE}26${RED}]${GREEN} Wordpress
-		${RED}[${WHITE}07${RED}]${GREEN} Steam         ${RED}[${WHITE}17${RED}]${GREEN} Protonmail   ${RED}[${WHITE}27${RED}]${GREEN} Yandex			
-		${RED}[${WHITE}08${RED}]${GREEN} Twitter       ${RED}[${WHITE}18${RED}]${GREEN} Spotify      ${RED}[${WHITE}28${RED}]${GREEN} StackoverFlow
-		${RED}[${WHITE}09${RED}]${GREEN} Playstation   ${RED}[${WHITE}19${RED}]${GREEN} Reddit       ${RED}[${WHITE}29${RED}]${GREEN} Vk
-		${RED}[${WHITE}10${RED}]${GREEN} Tiktok        ${RED}[${WHITE}20${RED}]${GREEN} Adobe        ${RED}[${WHITE}30${RED}]${GREEN} XBOX
-		${RED}[${WHITE}31${RED}]${GREEN} Mediafire     ${RED}[${WHITE}32${RED}]${GREEN} Gitlab       ${RED}[${WHITE}33${RED}]${GREEN} Github
-		${RED}[${WHITE}34${RED}]${GREEN} Discord       ${RED}[${WHITE}35${RED}]${GREEN} Roblox 
+		${RED}[${WHITE}01${RED}]${DARKGREEN} Facebook      ${RED}[${WHITE}11${RED}]${DARKGREEN} Twitch       ${RED}[${WHITE}21${RED}]${DARKGREEN} DeviantArt
+		${RED}[${WHITE}02${RED}]${DARKGREEN} Instagram     ${RED}[${WHITE}12${RED}]${DARKGREEN} Pinterest    ${RED}[${WHITE}22${RED}]${DARKGREEN} Badoo
+		${RED}[${WHITE}03${RED}]${DARKGREEN} Google        ${RED}[${WHITE}13${RED}]${DARKGREEN} Snapchat     ${RED}[${WHITE}23${RED}]${DARKGREEN} Origin
+		${RED}[${WHITE}04${RED}]${DARKGREEN} Microsoft     ${RED}[${WHITE}14${RED}]${DARKGREEN} Linkedin     ${RED}[${WHITE}24${RED}]${DARKGREEN} DropBox	
+		${RED}[${WHITE}05${RED}]${DARKGREEN} Netflix       ${RED}[${WHITE}15${RED}]${DARKGREEN} Ebay         ${RED}[${WHITE}25${RED}]${DARKGREEN} Yahoo		
+		${RED}[${WHITE}06${RED}]${DARKGREEN} Paypal        ${RED}[${WHITE}16${RED}]${DARKGREEN} Quora        ${RED}[${WHITE}26${RED}]${DARKGREEN} Wordpress
+		${RED}[${WHITE}07${RED}]${DARKGREEN} Steam         ${RED}[${WHITE}17${RED}]${DARKGREEN} Protonmail   ${RED}[${WHITE}27${RED}]${DARKGREEN} Yandex			
+		${RED}[${WHITE}08${RED}]${DARKGREEN} Twitter       ${RED}[${WHITE}18${RED}]${DARKGREEN} Spotify      ${RED}[${WHITE}28${RED}]${DARKGREEN} StackoverFlow
+		${RED}[${WHITE}09${RED}]${DARKGREEN} Playstation   ${RED}[${WHITE}19${RED}]${DARKGREEN} Reddit       ${RED}[${WHITE}29${RED}]${DARKGREEN} Vk
+		${RED}[${WHITE}10${RED}]${DARKGREEN} Tiktok        ${RED}[${WHITE}20${RED}]${DARKGREEN} Adobe        ${RED}[${WHITE}30${RED}]${DARKGREEN} XBOX
+		${RED}[${WHITE}31${RED}]${DARKGREEN} Mediafire     ${RED}[${WHITE}32${RED}]${DARKGREEN} Gitlab       ${RED}[${WHITE}33${RED}]${DARKGREEN} Github
+		${RED}[${WHITE}34${RED}]${DARKGREEN} Discord       ${RED}[${WHITE}35${RED}]${DARKGREEN} Roblox 
 
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 

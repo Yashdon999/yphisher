@@ -36,14 +36,27 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ### Features
 
-- Latest and updated login pages.
+- Multi platform (Supports most linux)
 - Beginners friendly
+- Latest and updated login pages.
 - Multiple tunneling options
   - Localhost
   - Cloudflared
   - LocalXpose
-- Mask URL support 
 - Docker support
+- Mask URL support 
+
+##
+
+### Support
+
+OS         | Support Level
+-----------|--------------
+Linux      | Excellent
+Android    | Excellent
+iPhone     | Alpha (Recommended docker)
+MacOS      | Alpha (Recommended docker)
+Windows    | Unsupported (Use docker/virtual-box/vmware)
 
 ##
 
@@ -74,13 +87,7 @@ $ yphisher
 ### A Note : 
 ***Termux discourages hacking*** .. So never discuss anything related to *yphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
 
-##
 
-<p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/htr-tech/yphisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
-</p>
-
-##
 
 ### Installation via ".deb" file
 
@@ -157,31 +164,18 @@ $ yphisher
 
 ##
 
+## [!] Disclaimer
+***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of PyPhisher!***
+
+### This repository is open source to help others. So if you wish to copy, consider giving credit!
+
+## Credits:
+Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zphisher), Some Designes from [MaxPhisher](https://github.com/KasRoudra/MaxPhisher)
+, and the Sites Updated by [Yash](https://github.com/Yashdon999/yphisher)
+
 ### Find Me on:
 <p align="left">
   <a href="https://yashdon999.github.io/Portfolio/" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
   <a href="https://github.com/Yashdon999" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
 </p>
 
-
-<!-- ### *Thanks to all contributors*:
-
-<table>
-  <tr align="center">
-    <td><a href="https://github.com/1RaY-1"><img src="https://avatars.githubusercontent.com/u/78962948?s=100" /><br /><sub><b>1RaY-1</b></sub></a></td>
-    <td><a href="https://github.com/adi1090x"><img src="https://avatars.githubusercontent.com/u/26059688?s=100" /><br /><sub><b>Aditya Shakya</b></sub></a></td>
-    <td><a href="https://github.com/AliMilani"><img src="https://avatars.githubusercontent.com/u/59066012?s=100" /><br /><sub><b>Ali Milani</b></sub></a></td>
-    <td><a href="https://github.com/Meht-evaS"><img src="https://avatars.githubusercontent.com/u/57435273?s=100" /><br /><sub><b>AmnesiA</b></sub></a></td>
-    <td><a href="https://github.com/KasRoudra"><img src="https://avatars.githubusercontent.com/u/78908440?s=100" /><br /><sub><b>KasRoudra</b></sub></a></td>
-   <td><a href="https://github.com/MoisesTapia"><img src="https://avatars.githubusercontent.com/u/28166400?s=100" /><br /><sub><b>Moises Tapia</b></sub></a></td>
-  </tr>
-  <tr align="center">
-   <td><a href="https://github.com/E343IO"><img src="https://avatars.githubusercontent.com/u/74646789?s=100" /><br /><sub><b>Mr.Derek</b></sub></a></td>
-    <td><a href="https://github.com/BDhackers009"><img src="https://avatars.githubusercontent.com/u/67186139?s=100" /><br /><sub><b>Mustakim Ahmed</b></sub></a></td>
-    <td><a href="https://github.com/sepp0"><img src="https://avatars.githubusercontent.com/u/36642137?s=100" /><br /><sub><b>sepp0</b></sub></a></td>
-    <td><a href="https://github.com/TripleHat"><img src="https://avatars.githubusercontent.com/u/68332137?s=100" /><br /><sub><b>TripleHat</b></sub></a></td>
-    <td><a href="https://github.com/Yisus7u7"><img src="https://avatars.githubusercontent.com/u/64093255?s=100" /><br /><sub><b>Yisus7u7</b></sub></a></td>
-  </tr>
-<table> -->
-
-<!-- // -->

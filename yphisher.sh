@@ -203,16 +203,16 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE}__   __     _     _     _               
-		${ORANGE}\ \ / / __ | |__ (_)___| |__   ___ _ __ 
-		${ORANGE} \ V / '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE}  | || |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}  |_|| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}     |_|                                
-		${ORANGE}                                     
-		${ORANGE}                      ${RED}Version : ${__version__}
-		${ORANGE}                      ${RED}By : yashdon999
+		${RED}
+		${RED}__   __     _     _     _               
+		${RED}\ \ / / __ | |__ (_)___| |__   ___ _ __ 
+		${RED} \ V / '_ \| '_ \| / __| '_ \ / _ \ '__|
+		${RED}  | || |_) | | | | \__ \ | | |  __/ |   
+		${RED}  |_|| .__/|_| |_|_|___/_| |_|\___|_|   
+		${RED}     |_|                                
+		${RED}                                     
+		${RED}                      ${GREEN}Version : ${__version__}
+		${RED}                      ${GREEN}By : yashdon999
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Yash (Yphisher)${WHITE}
 	EOF
@@ -225,7 +225,7 @@ banner_small() {
 		${BLUE}  ░█░░░█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀█
 		${BLUE}  ░▀▀█▀▀░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
 		${BLUE}  ░░░█░░░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
-		${ORANGE}                      ${RED}By : yashdon999
+		${ORANGE}                      ${RED}By : yash
 	EOF
 }
 
@@ -434,7 +434,7 @@ capture_creds() {
 
 ## Print data
 capture_data() {
-	echo -ne "\n${RED}[${WHITE}-${RED}]${ORANGE} Waiting for Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit..."
+	echo -ne "\n${RED}[${WHITE}-${RED}]${ORANGE}Waiting for Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit..."
 	while true; do
 		if [[ -e ".server/www/ip.txt" ]]; then
 			echo -e "\n\n${RED}[${WHITE}-${RED}]${GREEN} Victim IP Found !"
@@ -713,7 +713,7 @@ site_gmail() {
 site_vk() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
+		${RED}[${WHITE}01${RED}]${ORANGE} Login Page
 		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
 
 	EOF
@@ -741,18 +741,18 @@ main_menu() {
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${DARKGREEN} Facebook      ${RED}[${WHITE}11${RED}]${DARKGREEN} Twitch       ${RED}[${WHITE}21${RED}]${DARKGREEN} DeviantArt
-		${RED}[${WHITE}02${RED}]${DARKGREEN} Instagram     ${RED}[${WHITE}12${RED}]${DARKGREEN} Pinterest    ${RED}[${WHITE}22${RED}]${DARKGREEN} Badoo
-		${RED}[${WHITE}03${RED}]${DARKGREEN} Google        ${RED}[${WHITE}13${RED}]${DARKGREEN} Snapchat     ${RED}[${WHITE}23${RED}]${DARKGREEN} Origin
-		${RED}[${WHITE}04${RED}]${DARKGREEN} Microsoft     ${RED}[${WHITE}14${RED}]${DARKGREEN} Linkedin     ${RED}[${WHITE}24${RED}]${DARKGREEN} DropBox	
-		${RED}[${WHITE}05${RED}]${DARKGREEN} Netflix       ${RED}[${WHITE}15${RED}]${DARKGREEN} Ebay         ${RED}[${WHITE}25${RED}]${DARKGREEN} Yahoo		
-		${RED}[${WHITE}06${RED}]${DARKGREEN} Paypal        ${RED}[${WHITE}16${RED}]${DARKGREEN} Quora        ${RED}[${WHITE}26${RED}]${DARKGREEN} Wordpress
-		${RED}[${WHITE}07${RED}]${DARKGREEN} Steam         ${RED}[${WHITE}17${RED}]${DARKGREEN} Protonmail   ${RED}[${WHITE}27${RED}]${DARKGREEN} Yandex			
-		${RED}[${WHITE}08${RED}]${DARKGREEN} Twitter       ${RED}[${WHITE}18${RED}]${DARKGREEN} Spotify      ${RED}[${WHITE}28${RED}]${DARKGREEN} StackoverFlow
-		${RED}[${WHITE}09${RED}]${DARKGREEN} Playstation   ${RED}[${WHITE}19${RED}]${DARKGREEN} Reddit       ${RED}[${WHITE}29${RED}]${DARKGREEN} Vk
-		${RED}[${WHITE}10${RED}]${DARKGREEN} Tiktok        ${RED}[${WHITE}20${RED}]${DARKGREEN} Adobe        ${RED}[${WHITE}30${RED}]${DARKGREEN} XBOX
-		${RED}[${WHITE}31${RED}]${DARKGREEN} Mediafire     ${RED}[${WHITE}32${RED}]${DARKGREEN} Gitlab       ${RED}[${WHITE}33${RED}]${DARKGREEN} Github
-		${RED}[${WHITE}34${RED}]${DARKGREEN} Discord       ${RED}[${WHITE}35${RED}]${DARKGREEN} Roblox 
+		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
+		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
+		${RED}[${WHITE}03${RED}]${ORANGE} Google        ${RED}[${WHITE}13${RED}]${ORANGE} Snapchat     ${RED}[${WHITE}23${RED}]${ORANGE} Origin
+		${RED}[${WHITE}04${RED}]${ORANGE} Microsoft     ${RED}[${WHITE}14${RED}]${ORANGE} Linkedin     ${RED}[${WHITE}24${RED}]${ORANGE} DropBox	
+		${RED}[${WHITE}05${RED}]${ORANGE} Netflix       ${RED}[${WHITE}15${RED}]${ORANGE} Ebay         ${RED}[${WHITE}25${RED}]${ORANGE} Yahoo		
+		${RED}[${WHITE}06${RED}]${ORANGE} Paypal        ${RED}[${WHITE}16${RED}]${ORANGE} Quora        ${RED}[${WHITE}26${RED}]${ORANGE} Wordpress
+		${RED}[${WHITE}07${RED}]${ORANGE} Steam         ${RED}[${WHITE}17${RED}]${ORANGE} Protonmail   ${RED}[${WHITE}27${RED}]${ORANGE} Yandex			
+		${RED}[${WHITE}08${RED}]${ORANGE} Twitter       ${RED}[${WHITE}18${RED}]${ORANGE} Spotify      ${RED}[${WHITE}28${RED}]${ORANGE} StackoverFlow
+		${RED}[${WHITE}09${RED}]${ORANGE} Playstation   ${RED}[${WHITE}19${RED}]${ORANGE} Reddit       ${RED}[${WHITE}29${RED}]${ORANGE} Vk
+		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
+		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
+		${RED}[${WHITE}34${RED}]${ORANGE} Discord       ${RED}[${WHITE}35${RED}]${ORANGE} Roblox 
 
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 

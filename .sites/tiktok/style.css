@@ -14,8 +14,8 @@
 }
 
 .fullscreen-bg__video {
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: 0;
     left: 0;
@@ -35,8 +35,8 @@ img {
 }
 
 table {
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 select.input-command {
@@ -94,7 +94,8 @@ select.input-command {
 }
 
 .buttonstyle {
-    background: Transparent; /* For browsers that do not support gradients */
+    background: Transparent;
+    /* For browsers that do not support gradients */
     border-radius: 19px;
     border: 6px white solid;
     color: white;
@@ -132,20 +133,22 @@ select.input-command {
 }
 
 #main-tool {
-    background: #000000; /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(#000000, #000000); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#000000, #000000); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(#000000, #000000); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#000000, #000000); /* Standard syntax */
+    background: #000000;
+    /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#000000, #000000);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#000000, #000000);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#000000, #000000);
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#000000, #000000);
+    /* Standard syntax */
     border-radius: 9px;
     max-width: 500px;
     margin: 20px auto 20px;
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
 
 #verifybg {
     height: 0%;
@@ -156,8 +159,8 @@ select.input-command {
     z-index: 1;
     overflow-x: hidden;
     transition: 0.5s;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #verify {
@@ -165,11 +168,16 @@ select.input-command {
     margin-right: auto;
     color: white;
     position: relative;
-    background: #f98691; /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(#09f5f9, #f98691); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#09f5f9, #f98691); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(#09f5f9, #f98691); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#150608, #f98691); /* Standard syntax */
+    background: #f98691;
+    /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#09f5f9, #f98691);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#09f5f9, #f98691);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#09f5f9, #f98691);
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#150608, #f98691);
+    /* Standard syntax */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 9px;
     width: 90%;
@@ -181,7 +189,7 @@ select.input-command {
     width: 90%;
 }
 
-#shield{
+#shield {
     margin-bottom: 5px;
 }
 

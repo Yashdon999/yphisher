@@ -24,7 +24,7 @@
 
 <h3><p align="center">Disclaimer</p></h3>
 
-***Ultimate phishing tool in python. Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.***
+***Ultimate phishing tool . Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.***
 
 This project is now a part of [Yphisher](https://github.com/Yashdon999/yphisher). Further bug fixes and feature addition will be available in that
 
